@@ -1,0 +1,180 @@
+html {
+    box-sizing: border-box;
+}
+div {
+    box-sizing:border-box;
+    -moz-box-sizing:border-box; /* Firefox */
+    -webkit-box-sizing:border-box; /* Safari */
+}
+.bgimg{
+    font-size: 0;
+    padding: 0;
+    margin: 0;
+}
+/* 最外层包裹 */
+.icon-container{
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    box-sizing: content-box;
+}
+/* 通用大小 */
+.icon{
+    font-size: 12px;
+    width: 8rem;
+    height: 8rem;
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+}
+/* 内层包裹 */
+.warpper{
+    width: 200%;
+    height: 100%;
+    position: absolute;
+    font-size: 0;
+}
+/* 背景a */
+.icon-a{
+    background:transparent url('../img/day.jpg') no-repeat;
+    background-size: 48rem 24rem;
+}
+/* 背景b */
+.icon-b{
+    background:transparent url('../img/night.jpg') no-repeat;
+    background-size: 48rem 24rem;
+}
+.icon2{
+    background-position: -8rem 0;
+}
+.icon3{
+    background-position: -16rem 0;
+}
+.icon4{
+    background-position: -24rem 0;
+}
+.icon5{
+    background-position: -32rem 0;
+}
+.icon6{
+    background-position: -40rem 0;
+}
+.icon7{
+    background-position: 0 -9rem;
+}
+.icon8{
+    background-position: -8rem -8rem;
+}
+.icon9{
+    background-position: -16rem -8rem;
+}
+.icon10{
+    background-position: -24rem -8rem;
+}
+.icon11{
+    background-position: -32rem -8rem;
+}
+.icon12{
+    background-position: -40rem -8rem;
+}
+.icon13{
+    background-position: 0 -16rem;
+}
+.icon14{
+    background-position: -8rem -16rem;
+}
+.icon15{
+    background-position: -16rem -16rem;
+}
+.icon16{
+    background-position: -24rem -16rem;
+}
+.icon17{
+    background-position: -32rem -16rem;
+}
+.icon18{
+    background-position: -40rem -16rem;
+}
+/* 位置操控 */
+/* 左划 */
+.left-slider{
+    width: 200%;
+    height: 100%;
+    animation: left-slider 500ms cubic-bezier(0.64, 0.08, 0.79, 1) 0s 1 normal;
+    animation-fill-mode: forwards;
+}
+@keyframes left-slider
+{
+    0%   {left: 0rem;}
+    100% {left: -8rem;}
+}
+@-moz-keyframes left-slider /* Firefox */
+{
+    0%   {left: 0rem;}
+    100% {left: -8rem;}
+}
+@-webkit-keyframes left-slider /* Safari 和 Chrome */
+{
+    0%   {left: 0rem;}
+    100% {left: -8rem;}
+}
+@-o-keyframes left-slider /* Opera */
+{
+    0%   {left: 0rem;}
+    100% {left: -8rem;}
+}
+/* 上划 */
+.top-slider{
+    width: 100%;
+    height: 200%;
+    animation: top-slider 500ms cubic-bezier(0.64, 0.08, 0.79, 1) 0s 1 normal;
+    animation-fill-mode: forwards;
+}
+@keyframes top-slider
+{
+    0%   {top: 0rem;}
+    100% {top: -8rem;}
+}
+@-moz-keyframes top-slider /* Firefox */
+{
+    0%   {top: 0rem;}
+    100% {top: -8rem;}
+}
+@-webkit-keyframes top-slider /* Safari 和 Chrome */
+{
+    0%   {top: 0rem;}
+    100% {top: -8rem;}
+}
+@-o-keyframes top-slider /* Opera */
+{
+    0%   {top: 0rem;}
+    100% {top: -8rem;}
+}
+/* 右划 */
+/* 需要修改 */
+.right-slider{
+    width: 200%;
+    height: 100%;
+    right: 0rem;
+    animation: right-slider 500ms cubic-bezier(0.64, 0.08, 0.79, 1) 0s 1 normal;
+    animation-fill-mode: forwards;
+}
+@keyframes right-slider
+{
+    0%   {right: 0rem;}
+    100% {right: -8rem;}
+}
+@-moz-keyframes right-slider /* Firefox */
+{
+    0%   {right: 0rem;}
+    100% {right: -8rem;}
+}
+@-webkit-keyframes right-slider /* Safari 和 Chrome */
+{
+    0%   {right: 0rem;}
+    100% {right: -8rem;}
+}
+@-o-keyframes right-slider /* Opera */
+{
+    0%   {right: 0rem;}
+    100% {right: -8rem;}
+}
