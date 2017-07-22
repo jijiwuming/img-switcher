@@ -20,8 +20,6 @@ div {
 /* 通用大小 */
 .icon{
     font-size: 12px;
-    width: 8rem;
-    height: 8rem;
     overflow: hidden;
     display: inline-block;
     position: relative;
@@ -33,67 +31,7 @@ div {
     position: absolute;
     font-size: 0;
 }
-/* 背景a */
-.icon-a{
-    background:transparent url('../img/day.jpg') no-repeat;
-    background-size: 48rem 24rem;
-}
-/* 背景b */
-.icon-b{
-    background:transparent url('../img/night.jpg') no-repeat;
-    background-size: 48rem 24rem;
-}
-.icon2{
-    background-position: -8rem 0;
-}
-.icon3{
-    background-position: -16rem 0;
-}
-.icon4{
-    background-position: -24rem 0;
-}
-.icon5{
-    background-position: -32rem 0;
-}
-.icon6{
-    background-position: -40rem 0;
-}
-.icon7{
-    background-position: 0 -9rem;
-}
-.icon8{
-    background-position: -8rem -8rem;
-}
-.icon9{
-    background-position: -16rem -8rem;
-}
-.icon10{
-    background-position: -24rem -8rem;
-}
-.icon11{
-    background-position: -32rem -8rem;
-}
-.icon12{
-    background-position: -40rem -8rem;
-}
-.icon13{
-    background-position: 0 -16rem;
-}
-.icon14{
-    background-position: -8rem -16rem;
-}
-.icon15{
-    background-position: -16rem -16rem;
-}
-.icon16{
-    background-position: -24rem -16rem;
-}
-.icon17{
-    background-position: -32rem -16rem;
-}
-.icon18{
-    background-position: -40rem -16rem;
-}
+
 /* 位置操控 */
 /* 左划 */
 .left-slider{
