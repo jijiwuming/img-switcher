@@ -3,12 +3,49 @@
     <head>
         <title>示例页面</title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
         <link href="./css/switcher.css" rel="stylesheet">
+        <style type="text/css">
+            .sprites{
+                text-align: center;
+            }
+            .center{
+                text-align: center;
+            }
+        </style>
     </head>
     <body>
         <div class="sprites">
         </div>
+        <div class = "center">
+            <button onclick="leftslider()">依次左划</button>
+            <button onclick="rightslider()">依次右划</button>
+            <button onclick="topslider()">依次上划</button>
+            <button onclick="bottomslider()">依次下划</button>
+        </div>
         <script type="application/javascript" src="./js/switcher.js"></script>
+        <script type="application/javascript">
+            var a = new slider({
+                id:".sprites",
+                row:3,
+                col:6,
+                imgurl1:'./img/night.jpg',
+                imgurl2:'./img/day.jpg',
+                width:"48rem",
+                height:"24rem"
+            });
+            function leftslider(){
+                a.left_take_turn_slide();
+            }
+            function rightslider(){
+                a.right_take_turn_slide();
+            }
+            function topslider(){
+                a.top_take_turn_slide();
+            }
+            function bottomslider(){
+                a.bottom_take_turn_slide();
+            }
+        </script>
     </body>
 </html>
