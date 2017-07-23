@@ -1,5 +1,6 @@
 # 背景图片切换插件
 ## 基于原生JS和CSS3动画
+## [样例预览](http://htmlpreview.github.io/?https://github.com/jijiwuming/img-switcher/blob/master/index.html)
 ## 注意
 * 使用chrome开发，可能对其他浏览器兼容不足，理论兼容IE9+及其他主流浏览器
 * 使用时务必注意避免使用以下css类名
